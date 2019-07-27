@@ -1,0 +1,27 @@
+.summary-item {
+    padding: 10px;
+    width: 33.33%;
+    align-content: center;
+    height: 100%;
+    margin-top: 15px;
+    color: aliceblue;
+    background-color: #8aaae5;
+    margin: 10px;
+    
+    &.today {
+      background-color: green($color: #000000);
+    }
+    &.this-month {
+      background-color: gray;
+    }
+    &.this-month {
+      background-color: #8aaae5;
+    }
+    .summary-item-inner {
+      text-align: center;
+      padding-top: 40px;
+      h2 {
+        font-family: "Lato", sans-serif;
+      }
+    }
+  }
