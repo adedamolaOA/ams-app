@@ -1,15 +1,17 @@
 import React from "react";
-import "./appointment.style.scss";
+import "../styles/component.style.scss";
 import AMSTable from "../table/table.component";
-import Search from "./search/search.component";
+import Search from "./search-appointment.component";
 import CreateAppointment from "./create-appointment.component";
-import { Divider } from "@material-ui/core";
+import { AppBar } from "@material-ui/core";
 
 export default function Appointment() {
   return (
-    <div className="appointment">
-      <h2>Appointments</h2>
-      <Divider />
+    <div className="appContent">
+      <AppBar position="static">
+        <h3 styles={{marginTop: 16}}>Appointment</h3>
+      </AppBar>
+
       <br />
       <div className="content">
         <CreateAppointment />

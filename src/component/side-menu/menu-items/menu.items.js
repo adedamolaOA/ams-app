@@ -1,9 +1,8 @@
 import React from 'react';
 import Dashboard from "@material-ui/icons/DashboardTwoTone";
 import CalendarToday from "@material-ui/icons/CalendarTodayTwoTone";
-import GroupWorkRounded from "@material-ui/icons/GroupWorkTwoTone";
-import VerifiedUserRounded from "@material-ui/icons/VerifiedUserTwoTone";
 import Settings from "@material-ui/icons/SettingsTwoTone";
+import MessageRounded from "@material-ui/icons/MessageRounded"
 export const menuItems = [ 
     {
         id: 1,
@@ -20,18 +19,13 @@ export const menuItems = [
     }, 
     {
         id: 3,
-        name: 'Departments',
-        icon: ( <GroupWorkRounded htmlColor="white"/>),
-        componentUrl: '/departments'
+        name: 'Message',
+        icon: ( <MessageRounded htmlColor="white"/>),
+        componentUrl: '/messages'
+        
     }, 
     {
         id: 4,
-        name: 'Employees',
-        icon: ( <VerifiedUserRounded htmlColor="white"/>),
-        componentUrl: '/employees'
-    }, 
-    {
-        id: 5,
         name: 'Settings',
         icon: ( <Settings htmlColor="white"/>),
         componentUrl: '/settings'

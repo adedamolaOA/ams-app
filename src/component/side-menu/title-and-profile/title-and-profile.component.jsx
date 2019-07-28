@@ -1,6 +1,6 @@
 import React from "react";
 import Divider from "@material-ui/core/Divider";
-import "./title-and-profile.styles.scss";
+import "../../styles/component.style.scss";
 
 const TitleAndProfile = () => (
   <div className="title-and-profile">
