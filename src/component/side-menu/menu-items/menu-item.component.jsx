@@ -8,7 +8,7 @@ import { menuItems } from "./menu.items";
 const MenuItems = () => (
     menuItems.map(({ id, name, icon, componentUrl }) => {
         return (
-          <Link className="option" to={componentUrl}>
+          <Link key={id} className="option" to={componentUrl}>
             <ListItem button key={id}>
               <ListItemIcon>{icon}</ListItemIcon>
               <ListItemText primary={name} />

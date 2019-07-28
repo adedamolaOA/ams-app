@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { lighten, makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -317,6 +319,11 @@ export default function AMSTable() {
                       <TableCell align="right">{row.fat}</TableCell>
                       <TableCell align="right">{row.carbs}</TableCell>
                       <TableCell align="right">{row.protein}</TableCell>
+                      <TableCell align="right">
+                      <ButtonGroup color="primary" aria-label="outlined primary button group">
+                      <Button>Edit</Button>
+                      <Button>Delete</Button>
+                    </ButtonGroup></TableCell>
                     </TableRow>
                   );
                 })}
