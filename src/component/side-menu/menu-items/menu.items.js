@@ -8,26 +8,26 @@ export const menuItems = [
         id: 1,
         name: 'Dashboard',
         icon: ( <Dashboard htmlColor="white"/>),
-        componentUrl: '/'
+        componentUrl: '/ams-app/'
     },
     {
         id: 2,
         name: 'Appointments',
         icon: ( <CalendarToday htmlColor="white"/>),
-        componentUrl: '/appointments'
+        componentUrl: '/ams-app/appointments'
         
     }, 
     {
         id: 3,
         name: 'Message',
         icon: ( <MessageRounded htmlColor="white"/>),
-        componentUrl: '/messages'
+        componentUrl: '/ams-app/messages'
         
     }, 
     {
         id: 4,
         name: 'Settings',
         icon: ( <Settings htmlColor="white"/>),
-        componentUrl: '/settings'
+        componentUrl: '/ams-app/settings'
     }
 ];
