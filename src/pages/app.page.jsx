@@ -14,12 +14,12 @@ const AppPage = () => (
     <SideMenu />
     <div className="content">
       <Switch>
-        <Route exact path="/" component={Dashboard} />
-        <Route exact path="/appointments" component={Appointment} />
-        <Route exact path="/departments" component={Department} />        
-        <Route exact path="/employees" component={Employee} />         
-        <Route exact path="/messages" component={NotificationMessages} />    
-        <Route exact path="/settings" component={Settings} />
+        <Route exact path="/ams-app/" component={Dashboard} />
+        <Route exact path="/ams-app/appointments" component={Appointment} />
+        <Route exact path="/ams-app/departments" component={Department} />        
+        <Route exact path="/ams-app/employees" component={Employee} />         
+        <Route exact path="/ams-app/messages" component={NotificationMessages} />    
+        <Route exact path="/ams-app/settings" component={Settings} />
       </Switch>
     </div>
   </div>
