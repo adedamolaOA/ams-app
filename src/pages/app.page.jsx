@@ -18,7 +18,7 @@ const AppPage = () => (
         <Route exact path="/appointments" component={Appointment} />
         <Route exact path="/departments" component={Department} />        
         <Route exact path="/employees" component={Employee} />         
-        <Route exact path="/messages" component={NotificationMessages} />        
+        <Route exact path="/messages" component={NotificationMessages} />    
         <Route exact path="/settings" component={Settings} />
       </Switch>
     </div>

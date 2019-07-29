@@ -8,6 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Department from "../department/department.component";
 import Employee from '../employee/employee.component';
+import UserPermission from '../users/user-permissions.component';
 import '../styles/component.style.scss';
 
 function TabPanel(props) {
@@ -66,13 +67,13 @@ export default function Settings() {
           aria-label="simple tabs example"
           className="tab"
         >
-          <Tab label="User Access" {...a11yProps(0)} />
+          <Tab label="General" {...a11yProps(0)} />
           <Tab label="Department" {...a11yProps(1)} />
           <Tab label="Employee" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Item Two
+        <UserPermission/>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <Department />

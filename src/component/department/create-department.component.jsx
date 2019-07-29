@@ -41,7 +41,7 @@ export default function CreateDepartment() {
           <form className={classes.container} noValidate autoComplete="off">
             <TextField
               id="standard-name"
-              label="First Name"
+              label="Department Name"
               className={classes.textField}
               onChange={handleChange("firstName")}
               margin="normal"

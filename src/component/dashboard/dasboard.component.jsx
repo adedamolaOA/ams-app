@@ -13,7 +13,7 @@ class Dashboard extends React.Component {
     return (
       <div className="dashboard">
         <AppBar position="static">
-          <h3>Dashboard</h3>
+          <h3 style={{marginTop: 20}}>Dashboard</h3>
         </AppBar>
         <br />
         <h3>Visit Summary</h3>
